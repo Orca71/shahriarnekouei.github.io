@@ -12,6 +12,14 @@ I'm a data scientist with a passion for solving real-world problems using **mach
 - Fake news detection
 - Emotion-aware AI music generation
 
-This site is a collection of my favorite work. Feel free to explore my projects, read more about my process, or [connect with me](Shah.nekouei@gmail.com).
+This site is a collection of my favorite work. Feel free to explore my projects, read more about my process, or [connect with me](mailto:your.email@example.com).
 
 👉 **[See My Projects »](projects)**
+
+---
+
+## 📬 Contact
+
+- 📧 Email: [your.email@example.com](shah.nekouei@gmail.com)  
+- 🧠 GitHub: [github.com/Orca71](https://github.com/Orca71)  
+- 📄 [View my resume (PDF)](Shahriar_Nekouei_resume.pdf) *
