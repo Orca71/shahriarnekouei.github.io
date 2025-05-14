@@ -14,4 +14,4 @@ I'm a data scientist with a passion for solving real-world problems using **mach
 
 This site is a collection of my favorite work. Feel free to explore my projects, read more about my process, or [connect with me](Shah.nekouei@gmail.com).
 
-👉 **[See My Projects »](projects.md)**
+👉 **[See My Projects »](projects)**
