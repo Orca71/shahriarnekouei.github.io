@@ -2,7 +2,7 @@
 layout: default
 title: Shahriar Nekouei
 ---
-<img src="profile.jpg" alt="Profile image of Shahriar Nekouei" width="150" style="border-radius: 50%; display: block; margin: auto;" />
+<img src="profile.jpg" alt="Profile image of Shahriar Nekouei" width="150" style="display: block; margin: auto;" />
 
 # Hi, I’m Shahriar 👋
 
