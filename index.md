@@ -1,3 +1,5 @@
+<img src="profile.jpg" alt="Profile image of Shahriar Nekouei" width="150" style="border-radius: 50%; display: block; margin: auto;" />
+
 ---
 layout: default
 title: Shahriar Nekouei
