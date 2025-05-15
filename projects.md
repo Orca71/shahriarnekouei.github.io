@@ -60,5 +60,4 @@ A personal research project that fuses harmony theory with machine learning. Wol
 
 ---
 
-Want to collaborate or learn more?  
-📩 [Get in touch](shah.nekouei@gmail.com)
+
