@@ -2,8 +2,9 @@
 layout: default
 title: Shahriar Nekouei
 ---
-<img src="profile.jpg" alt="Profile image of Shahriar Nekouei" width="150" style="float: left; margin-right: 20px;" />
+<img src="profile.jpg" alt="Profile image of Shahriar Nekouei" width="150" style="float: left; margin-right: 20px; margin-bottom: 10px;" />
 
+<div style="overflow: hidden;">
 
 # Hi, I’m Shahriar 👋
 
@@ -14,12 +15,5 @@ I'm a data scientist with a passion for solving real-world problems using **mach
 - Fake news detection
 - Emotion-aware AI music generation
 
-This site is a collection of my favorite work. Feel free to explore my projects, read more about my process
+</div>
 
----
-
-## 📬 Contact
-
-- 📧 Email: [shah.nekouei@gmail.com](shah.nekouei@gmail.com)  
-- 🧠 GitHub: [github.com/Orca71](https://github.com/Orca71)  
-- 📄 [View my resume (PDF)](Shahriar_Nekouei_resume.pdf) *
