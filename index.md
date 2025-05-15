@@ -20,6 +20,6 @@ This site is a collection of my favorite work. Feel free to explore my projects,
 
 ## 📬 Contact
 
-- 📧 Email: [your.email@example.com](shah.nekouei@gmail.com)  
+- 📧 Email: [shah.nekouei@gmail.com](shah.nekouei@gmail.com)  
 - 🧠 GitHub: [github.com/Orca71](https://github.com/Orca71)  
 - 📄 [View my resume (PDF)](Shahriar_Nekouei_resume.pdf) *
