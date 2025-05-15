@@ -7,8 +7,8 @@ title: Contact
 
 I'm always happy to connect about data science, machine learning, NLP, or creative AI projects.
 
-- 📧 Email: [your.email@example.com](mailto:your.email@example.com)
+- 📧 Email: [shah.nekouei@gmail.com](mailto:your.email@example.com)
 - 🧠 GitHub: [github.com/Orca71](https://github.com/Orca71)
-- 📄 [Download my resume](Shahriar_Nekouei_Resume.pdf)
+- 📄 [Download my resume](Shahriar_Nekouei_resume.pdf)
 
 Thanks for visiting my portfolio!
