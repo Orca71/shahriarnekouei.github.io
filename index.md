@@ -14,9 +14,7 @@ I'm a data scientist with a passion for solving real-world problems using **mach
 - Fake news detection
 - Emotion-aware AI music generation
 
-This site is a collection of my favorite work. Feel free to explore my projects, read more about my process, or [connect with me](mailto:your.email@example.com).
-
-👉 **[See My Projects »](projects)**
+This site is a collection of my favorite work. Feel free to explore my projects, read more about my process
 
 ---
 
