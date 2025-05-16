@@ -18,7 +18,7 @@ Built a multi-linear regression and time series pipeline to forecast housing pri
 - R² ≈ 0.87  
 - Time-series aware training/test split  
 - Economic interpretability with explainability techniques  
-[Github](https://github.com/Orca71/Housing-Market-Forecasting-Time-Series-/tree/main) • [Read Summary](#)
+[Github](https://github.com/Orca71/Housing-Market-Forecasting-Time-Series-/tree/main) • [Read Report](https://github.com/Orca71/Housing-Market-Forecasting-Time-Series-/blob/main/HousingForcastReport.pdf)
 
 ---
 
