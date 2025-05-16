@@ -39,17 +39,19 @@ Developed a multimodal machine learning pipeline to predict excitement and perfo
 
 ---
 
-## 📰 Fake News Detection with NLP
+## 📰 Fake News Detection with NLP *(In Progress)*
 
-**Tools**: TF-IDF, Logistic Regression, Word Embeddings  
+**Tools**: TF-IDF, Logistic Regression, Word2Vec  
 **Description**:  
-Developed a fake news classification model using the LIAR dataset. Applied feature selection, precision/recall analysis, and evaluated Word2Vec-based approaches.  
-**Key highlights**:  
-- Preprocessed 6-class → binary labels  
-- Improved recall using rebalancing and embedding techniques  
-[View Code](#) • [Read Summary](#)
+Developing a binary fake news classification model using the LIAR dataset. The project explores TF-IDF and Word Embedding techniques, evaluates precision/recall, and experiments with feature rebalancing to improve recall.
 
----
+**Key highlights**:  
+- Converted 6-class labels to binary (real vs. fake)  
+- Improved recall with class rebalancing and embedding-based modeling  
+- Code and modeling in progress — final report coming soon  
+
+[GitHub](https://github.com/Orca71/fake-news-detector) • [Report coming soon](#)
+
 
 ## 🎼 Wolfie: Emotion-Aware Classical Music Generation
 
