@@ -24,15 +24,17 @@ Ongoing time series modeling project to forecast rent and mortgage trends for Co
 
 ---
 
-## 🧠 Explainable Interview Scoring with NLP
+## 🧠 Multimodal Interview Scoring with NLP
 
-**Tools**: TF-IDF, Word2Vec, Random Forest, SHAP  
+**Tools**: TF-IDF, Word2Vec, prosodic features, Random Forest, FNN, SHAP  
 **Description**:  
-Built a multimodal machine learning model to predict interview scores (performance and excitement) using language and prosodic features. Applied explainable ML methods to interpret results.  
+Developed a multimodal machine learning pipeline to predict excitement and performance scores from interviews using both textual (NLP) and prosodic (audio) features. Applied explainable ML techniques to interpret model predictions.  
 **Key highlights**:  
-- 5-fold CV with TF-IDF and Word2Vec  
-- Random Forest and FNN comparison  
-- Used MIT Interview Dataset  
+- 5-fold cross-validation using TF-IDF and Word2Vec  
+- Multimodal models outperformed unimodal baselines  
+- SHAP and correlation analysis for interpretability  
+- Based on the MIT Interview dataset  
+- Final report and results complete
 [Github](https://github.com/Orca71/Interview-outcome-Prediction-Multimodal-ML-) • [Read Report](https://github.com/Orca71/Interview-Outcome-Prediction-Multimodal-ML-/blob/main/Report.pdf)
 
 ---
