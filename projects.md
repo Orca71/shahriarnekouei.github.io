@@ -11,13 +11,15 @@ Here are some of the most exciting projects I've worked on — combining machine
 
 ## 🏠 Colorado Housing & Rent Forecasting
 
-**Tools**: Python, scikit-learn, statsmodels, SARIMAX, Ridge/ElasticNet  
+**Tools**: Python, scikit-learn, statsmodels, Elastic Net, XGBoost, SARIMAX  
 **Description**:  
-Built a multi-linear regression and time series pipeline to forecast housing prices and rent trends across Colorado using Zillow and economic indicators. Validated with SARIMAX and neural networks.  
+Ongoing time series modeling project to forecast rent and mortgage trends for Colorado single-family homes using Zillow and economic indicators. Applied transformations, lag features, and regression diagnostics.  
 **Key highlights**:  
-- R² ≈ 0.87  
+- R² up to 0.97 on validation  
+- Elastic Net and XGBoost models for multicollinearity and performance  
 - Time-series aware training/test split  
-- Economic interpretability with explainability techniques  
+- Interpretable with SHAP and feature correlation  
+- Final code in progress 
 [Github](https://github.com/Orca71/Housing-Market-Forecasting-Time-Series-/tree/main) • [Read Report](https://github.com/Orca71/Housing-Market-Forecasting-Time-Series-/blob/main/HousingForcastReport.pdf)
 
 ---
