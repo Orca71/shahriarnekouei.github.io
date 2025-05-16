@@ -53,16 +53,20 @@ Developing a binary fake news classification model using the LIAR dataset. The p
 [GitHub](https://github.com/Orca71/fake-news-detector) • [Report coming soon](#)
 
 
-## 🎼 Wolfie: Emotion-Aware Classical Music Generation
+## 🎼 Wolfie: AI-Powered Mood-Based Music Generator *(In Progress)*
 
-**Tools**: PrettyMIDI, rule-based chord logic, NLP-driven motif design  
+**Tools**: Python, PrettyMIDI, FluidSynth, Symbolic AI, Music Theory  
 **Description**:  
-A personal research project that fuses harmony theory with machine learning. Wolfie generates music from emotional or poetic input using symbolic AI and neural network techniques.  
+An original music generation system that composes emotionally expressive chord progressions and melodies based on user-selected moods and classical harmony logic. Wolfie blends symbolic AI and music theory with the foundations of generative models.
+
 **Key highlights**:  
-- Circle of fifths + cadence logic  
-- Mood-to-chord generator (rule-based)  
-- Preparing for LSTM/Transformer melody generation  
-[View Code](#) • [Demo Soon](#)
+- Rule-based chord generation (Circle of Fifths, cadences, key modes)  
+- Melody creation with customizable inversion, tempo, and emotion  
+- Outputs expressive MIDI compositions  
+- Inspired by Bach, Mozart, and Beethoven  
+- Currently integrating LSTMs and deep learning for expressive control  
+
+[GitHub]([https://github.com/Orca71/wolfie-ai](https://github.com/Orca71/Wolfie)) • [Demo coming soon](#)
 
 ---
 
