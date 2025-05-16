@@ -31,7 +31,7 @@ Built a multimodal machine learning model to predict interview scores (performan
 - 5-fold CV with TF-IDF and Word2Vec  
 - Random Forest and FNN comparison  
 - Used MIT Interview Dataset  
-[View Code](#) • [Read Summary](#)
+[View Code](https://github.com/Orca71/Interview-outcome-Prediction-Multimodal-ML-)) • [Read Summary](#)
 
 ---
 
