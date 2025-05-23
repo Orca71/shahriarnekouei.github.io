@@ -41,16 +41,18 @@ Developed a multimodal machine learning pipeline to predict excitement and perfo
 
 ## 📰 Fake News Detection with NLP *(In Progress)*
 
-**Tools**: TF-IDF, Logistic Regression, Word2Vec  
+**Tools**: TF-IDF, Logistic Regression, XGBoost, BERT (in progress)  
 **Description**:  
-Developing a binary fake news classification model using the LIAR dataset. The project explores TF-IDF and Word Embedding techniques, evaluates precision/recall, and experiments with feature rebalancing to improve recall.
+A binary fake news classification project using the LIAR dataset (12K+ political statements). Combines traditional NLP (TF-IDF, Word2Vec) with machine learning models like Logistic Regression and XGBoost. Currently experimenting with fine-tuning BERT for improved performance.
 
-**Key highlights**:  
-- Converted 6-class labels to binary (real vs. fake)  
-- Improved recall with class rebalancing and embedding-based modeling  
-- Code and modeling in progress — final report coming soon  
+**Key Highlights**:  
+- Mapped 6-class labels to binary: Real vs. Fake  
+- Achieved ~62% accuracy with Logistic Regression and XGBoost  
+- Evaluated using precision, recall, F1, and confusion matrices  
+- BERT fine-tuning and web demo deployment in progress
 
-[GitHub](https://github.com/Orca71/fake-news-detector) • [Report coming soon](#)
+[GitHub Repository](https://github.com/Orca71/fake-news-detector)
+
 
 
 ## 🎼 Wolfie: AI-Powered Mood-Based Music Generator *(In Progress)*
