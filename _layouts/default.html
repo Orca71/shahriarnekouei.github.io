@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BQQV5K4R3G"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-BQQV5K4R3G');
+  </script>
+  <!-- End Google Analytics -->
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/assets/css/custom.css">
-  </head>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
-  <body>
-    {% include navbar.html %}
-    {{ content }}
-  </body>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/custom.css">
+</head>
+
+<body>
+  {% include navbar.html %}
+  {{ content }}
+</body>
 </html>
