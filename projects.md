@@ -52,6 +52,7 @@ A binary fake news classification project using the LIAR dataset (12K+ political
 - BERT fine-tuning and web demo deployment in progress
 
 [GitHub Repository](https://github.com/Orca71/fake-news-detector)
+[Try the Live Demo](https://huggingface.co/spaces/ShahOfData/shah_fake-news-detector)
 
 
 
