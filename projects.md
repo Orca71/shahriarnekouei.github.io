@@ -38,7 +38,7 @@ Developed a multimodal machine learning pipeline to predict excitement and perfo
 [Github](https://github.com/Orca71/Interview-outcome-Prediction-Multimodal-ML-) • [Read Report](https://github.com/Orca71/Interview-Outcome-Prediction-Multimodal-ML-/blob/main/Report.pdf)
 
 ---
-##📰 Fake News Detection with NLP (Completed)##
+## 📰 Fake News Detection with NLP (Completed)
 
 Tools: BERT, TF-IDF, Logistic Regression, XGBoost, Gradio
 Description:
