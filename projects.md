@@ -44,17 +44,17 @@ Tools: BERT, TF-IDF, Logistic Regression, XGBoost, Gradio
 Description:
 A binary fake news classification project using the LIAR dataset (12K+ labeled political statements). The project explores both traditional NLP pipelines and transformer-based models. The final deployment uses a fine-tuned BERT model served through a web demo.
 
-Key Highlights:
+**Key Highlights**:
 
-Converted 6-class labels into binary: Real vs Fake
+- Converted 6-class labels into binary: Real vs Fake
 
-Achieved ~63% test accuracy with fine-tuned BERT
+- Achieved ~63% test accuracy with fine-tuned BERT
 
-Evaluated with precision, recall, F1-score, and confusion matrices
+- Evaluated with precision, recall, F1-score, and confusion matrices
 
-Compared baseline models: TF-IDF + Logistic Regression, XGBoost
+- Compared baseline models: TF-IDF + Logistic Regression, XGBoost
 
-✅ Deployed a live Gradio demo via Hugging Face Spaces
+- Deployed a live Gradio demo via Hugging Face Spaces
 
 [GitHub Repository](https://github.com/Orca71/fake-news-detector) •
 [Try the Live Demo](https://huggingface.co/spaces/ShahOfData/shah_fake-news-detector)
