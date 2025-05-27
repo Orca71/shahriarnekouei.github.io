@@ -38,18 +38,22 @@ Developed a multimodal machine learning pipeline to predict excitement and perfo
 [Github](https://github.com/Orca71/Interview-outcome-Prediction-Multimodal-ML-) • [Read Report](https://github.com/Orca71/Interview-Outcome-Prediction-Multimodal-ML-/blob/main/Report.pdf)
 
 ---
+📰 Fake News Detection with NLP (Completed)
+Tools: BERT, TF-IDF, Logistic Regression, XGBoost, Gradio
+Description:
+A binary fake news classification project using the LIAR dataset (12K+ labeled political statements). The project explores both traditional NLP pipelines and transformer-based models. The final deployment uses a fine-tuned BERT model served through a web demo.
 
-## 📰 Fake News Detection with NLP *(In Progress)*
+Key Highlights:
 
-**Tools**: TF-IDF, Logistic Regression, XGBoost, BERT (in progress)  
-**Description**:  
-A binary fake news classification project using the LIAR dataset (12K+ political statements). Combines traditional NLP (TF-IDF, Word2Vec) with machine learning models like Logistic Regression and XGBoost. Currently experimenting with fine-tuning BERT for improved performance.
+Converted 6-class labels into binary: Real vs Fake
 
-**Key Highlights**:  
-- Mapped 6-class labels to binary: Real vs. Fake  
-- Achieved ~62% accuracy with Logistic Regression and XGBoost  
-- Evaluated using precision, recall, F1, and confusion matrices  
-- BERT fine-tuning and web demo deployment in progress
+Achieved ~63% test accuracy with fine-tuned BERT
+
+Evaluated with precision, recall, F1-score, and confusion matrices
+
+Compared baseline models: TF-IDF + Logistic Regression, XGBoost
+
+✅ Deployed a live Gradio demo via Hugging Face Spaces
 
 [GitHub Repository](https://github.com/Orca71/fake-news-detector) •
 [Try the Live Demo](https://huggingface.co/spaces/ShahOfData/shah_fake-news-detector)
