@@ -9,22 +9,21 @@ title: Shahriar Nekouei
 
   <div>
 
-    <h1>Hi, I’m Shahriar 👋</h1>
+<h1>Hi, I’m Shahriar 👋</h1>
 
-    <p>
-      I'm a data scientist with a passion for solving real-world problems using
-      <strong>machine learning</strong>, <strong>NLP</strong>, and <strong>creative AI</strong>.
-      I'm currently finishing my Master's in Data Science at the University of Colorado Boulder.
-    </p>
+<p>
+  I'm an AI/ML engineer and creative technologist with a passion for transforming bold ideas into working systems. Currently completing my Master's in Data Science at the University of Colorado Boulder, I specialize in building thoughtful, scalable solutions using <strong>machine learning</strong>, <strong>natural language processing</strong>, and <strong>creative AI</strong>.
+</p>
 
-    <p>I've worked on projects in:</p>
+<p>My work blends rigor with imagination—whether forecasting housing markets, detecting misinformation, or composing emotionally expressive music with code.</p>
 
-    <ul>
-      <li>Time series forecasting (housing and rent prediction)</li>
-      <li>NLP for explainable interview scoring</li>
-      <li>Fake news detection</li>
-      <li>Emotion-aware AI music generation</li>
-    </ul>
+<p>Core project areas:</p>
+<ul>
+  <li>Time series forecasting (housing and rent prediction)</li>
+  <li>Multimodal NLP for explainable interview scoring</li>
+  <li>Fake news detection using transformers</li>
+  <li>Emotion-aware AI music generation (Wolfie)</li>
+</ul>
 
   </div>
 
