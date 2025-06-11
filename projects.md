@@ -5,7 +5,7 @@ title: Projects
 
 # Projects
 
-Here are some of the most exciting projects I've worked on — combining machine learning, NLP, time series forecasting, and music AI.
+Welcome to a collection of my most exciting projects — where machine learning, NLP, time series forecasting, and musical intelligence come together through creativity and rigor.
 
 ---
 
@@ -13,14 +13,15 @@ Here are some of the most exciting projects I've worked on — combining machine
 
 **Tools**: Python, scikit-learn, statsmodels, Elastic Net, XGBoost, SARIMAX  
 **Description**:  
-Ongoing time series modeling project to forecast rent and mortgage trends for Colorado single-family homes using Zillow and economic indicators. Applied transformations, lag features, and regression diagnostics.  
-**Key highlights**:  
-- R² up to 0.97 on validation  
-- Elastic Net and XGBoost models for multicollinearity and performance  
-- Time-series aware training/test split  
-- Interpretable with SHAP and feature correlation  
-- Final code in progress 
-[Github](https://github.com/Orca71/Housing-Market-Forecasting-Time-Series-/tree/main) • [Read Report](https://github.com/Orca71/Housing-Market-Forecasting-Time-Series-/blob/main/HousingForcastReport.pdf)
+Developed a time series modeling system to forecast rent and mortgage trends for Colorado single-family homes using Zillow and economic indicators. The models incorporate feature engineering, lag analysis, and regression diagnostics to support real-world decision-making.
+
+**Key Highlights**:
+- Achieved R² up to 0.97 on validation sets  
+- Used Elastic Net and XGBoost to address multicollinearity and boost performance  
+- Implemented time-series-aware data splits and transformations  
+- Applied SHAP for interpretability and correlation heatmaps  
+- Final code and results are documented and reproducible  
+[GitHub](https://github.com/Orca71/Housing-Market-Forecasting-Time-Series-/tree/main) • [Read Report](https://github.com/Orca71/Housing-Market-Forecasting-Time-Series-/blob/main/HousingForcastReport.pdf)
 
 ---
 
@@ -28,54 +29,46 @@ Ongoing time series modeling project to forecast rent and mortgage trends for Co
 
 **Tools**: TF-IDF, Word2Vec, prosodic features, Random Forest, FNN, SHAP  
 **Description**:  
-Developed a multimodal machine learning pipeline to predict excitement and performance scores from interviews using both textual (NLP) and prosodic (audio) features. Applied explainable ML techniques to interpret model predictions.  
-**Key highlights**:  
-- 5-fold cross-validation using TF-IDF and Word2Vec  
-- Multimodal models outperformed unimodal baselines  
-- SHAP and correlation analysis for interpretability  
-- Based on the MIT Interview dataset  
-- Final report and results complete
-[Github](https://github.com/Orca71/Interview-outcome-Prediction-Multimodal-ML-) • [Read Report](https://github.com/Orca71/Interview-Outcome-Prediction-Multimodal-ML-/blob/main/Report.pdf)
-
----
-## 📰 Fake News Detection with NLP (Completed)
-
-Tools: BERT, TF-IDF, Logistic Regression, XGBoost, Gradio
-Description:
-A binary fake news classification project using the LIAR dataset (12K+ labeled political statements). The project explores both traditional NLP pipelines and transformer-based models. The final deployment uses a fine-tuned BERT model served through a web demo.
+Built a multimodal machine learning pipeline to estimate performance and excitement scores from job interviews using both language and audio features. Applied explainable ML methods to ensure interpretability and fairness.
 
 **Key Highlights**:
+- Combined TF-IDF and Word2Vec embeddings with prosodic speech features  
+- Conducted 5-fold cross-validation and hyperparameter tuning  
+- Multimodal models showed superior predictive power over single-modality baselines  
+- Applied SHAP and EBM for transparency and feature importance  
+- Based on MIT Interview corpus  
+[GitHub](https://github.com/Orca71/Interview-outcome-Prediction-Multimodal-ML-) • [Read Report](https://github.com/Orca71/Interview-Outcome-Prediction-Multimodal-ML-/blob/main/Report.pdf)
 
-- Converted 6-class labels into binary: Real vs Fake
+---
 
-- Achieved ~63% test accuracy with fine-tuned BERT
+## 📰 Fake News Detection with NLP (Completed)
 
-- Evaluated with precision, recall, F1-score, and confusion matrices
+**Tools**: BERT, TF-IDF, Logistic Regression, XGBoost, Gradio  
+**Description**:  
+Designed a binary text classification system to detect fake news using the LIAR dataset. This project explored both classic NLP pipelines and transformer-based approaches, culminating in a fine-tuned BERT model deployed with an interactive demo.
 
-- Compared baseline models: TF-IDF + Logistic Regression, XGBoost
+**Key Highlights**:
+- Converted LIAR dataset from 6-class to binary: Real vs Fake  
+- Fine-tuned BERT model achieved ~63% test accuracy with strong F1 performance  
+- Compared performance with TF-IDF + Logistic Regression and XGBoost  
+- Evaluated with confusion matrix, precision, recall, and F1-score  
+- Deployed live Gradio demo on Hugging Face Spaces  
+[GitHub Repository](https://github.com/Orca71/fake-news-detector) • [Try the Live Demo](https://huggingface.co/spaces/ShahOfData/shah_fake-news-detector)
 
-- Deployed a live Gradio demo via Hugging Face Spaces
-
-[GitHub Repository](https://github.com/Orca71/fake-news-detector) •
-[Try the Live Demo](https://huggingface.co/spaces/ShahOfData/shah_fake-news-detector)
-
-
+---
 
 ## 🎼 Wolfie: AI-Powered Mood-Based Music Generator *(In Progress)*
 
 **Tools**: Python, PrettyMIDI, FluidSynth, Symbolic AI, Music Theory  
 **Description**:  
-An original music generation system that composes emotionally expressive chord progressions and melodies based on user-selected moods and classical harmony logic. Wolfie blends symbolic AI and music theory with the foundations of generative models.
+Wolfie is a personal research project that merges emotion, music theory, and machine intelligence. The system generates harmonically rich chord progressions and melodies based on user-selected moods, using a blend of symbolic AI and generative music logic.
 
-**Key highlights**:  
-- Rule-based chord generation (Circle of Fifths, cadences, key modes)  
-- Melody creation with customizable inversion, tempo, and emotion  
-- Outputs expressive MIDI compositions  
-- Inspired by Bach, Mozart, and Beethoven  
-- Currently integrating LSTMs and deep learning for expressive control  
-
-[GitHub]([https://github.com/Orca71/wolfie-ai](https://github.com/Orca71/Wolfie)) • [Demo coming soon](#)
+**Key Highlights**:
+- Rule-based harmonic engine based on the Circle of Fifths and classical cadences  
+- Customizable emotion, tempo, key mode, and melodic contour  
+- Exports expressive MIDI compositions for playback and editing  
+- Inspired by expressive works of Bach, Mozart, and Beethoven  
+- Currently extending with LSTMs for generative expressiveness  
+[GitHub](https://github.com/Orca71/Wolfie) • [Demo coming soon](#)
 
 ---
-
-
