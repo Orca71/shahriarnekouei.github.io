@@ -5,23 +5,24 @@ title: Projects
 
 # Projects
 
-A collection of my most exciting work — blending machine learning, NLP, time series forecasting, and creative AI into real-world, expressive systems.
+A collection of my most exciting work — blending machine learning, NLP, multimodal reasoning, and creative AI into real-world, expressive systems.
 
 ---
 
-## 🏠 Colorado Housing & Rent Forecasting
+## 🧩 Abductive Reasoning Research *(In Development)*
 
-**Tools**: Python, scikit-learn, statsmodels, Elastic Net, XGBoost, SARIMAX  
+**Tools**: Python, PyTorch, Transformers, Contrastive Learning  
 **Description**:  
-Developed a robust time series modeling pipeline to forecast rent and mortgage trends for Colorado single-family homes using Zillow and macroeconomic indicators. Models incorporate feature engineering, lag structure, and regression diagnostics to support practical decision-making.
+An ongoing research project exploring abductive inference — the process of identifying the most plausible explanation for a given observation. This work investigates how LLMs handle subtle causal distinctions and hypothesis selection when semantic similarity causes classical training signals to collapse.
 
 **Key Highlights**:
-- Achieved up to R² = 0.97 on validation sets  
-- Applied Elastic Net and XGBoost to tackle multicollinearity and improve generalization  
-- Engineered time-aware features and used SARIMAX for economic seasonality  
-- Visualized SHAP values and heatmaps for interpretability  
-- Fully reproducible code and documented insights  
-[GitHub](https://github.com/Orca71/Housing-Market-Forecasting-Time-Series-/tree/main) • [Read Report](https://github.com/Orca71/Housing-Market-Forecasting-Time-Series-/blob/main/HousingForcastReport.pdf)
+- Designed hypothesis-generation and reasoning pipeline based on the SemEval-2026 Task 12 framework  
+- Analyzed encoder collapse in embedding space (semantic similarity ≈ 0.94 across hypotheses)  
+- Experimented with contrastive objectives (InfoNCE, difference-based losses)  
+- Investigating new encoder architectures for causal sensitivity  
+- Aim: build models capable of distinguishing tightly overlapping hypotheses  
+
+*(Code & preprint coming soon)*
 
 ---
 
@@ -33,9 +34,9 @@ Built a multimodal ML pipeline to estimate job interview performance and excitem
 
 **Key Highlights**:
 - Fused text (TF-IDF, Word2Vec) and prosodic features (pitch, energy)  
-- Performed 5-fold cross-validation with model tuning  
+- Performed 5-fold cross-validation with extensive model tuning  
 - Achieved higher predictive performance vs unimodal baselines  
-- Interpreted results using SHAP and Explainable Boosting Machines (EBM)  
+- Interpreted results using SHAP and Explainable Boosting Machines  
 - Dataset: MIT Interview corpus  
 [GitHub](https://github.com/Orca71/Interview-outcome-Prediction-Multimodal-ML-) • [Read Report](https://github.com/Orca71/Interview-Outcome-Prediction-Multimodal-ML-/blob/main/Report.pdf)
 
@@ -61,15 +62,15 @@ Designed and deployed a binary classification system to detect fake news using t
 
 **Tools**: Python, PrettyMIDI, FluidSynth, symbolic AI, music theory  
 **Description**:  
-Wolfie is a personal project exploring the intersection of emotion, harmony, and AI. It generates expressive chord progressions and motifs based on user-selected moods using rule-based logic and symbolic musical structures.
+Wolfie explores the intersection of emotion, harmony, and AI. It generates expressive chord progressions and motifs based on user-selected moods using rule-based logic and symbolic musical structures.
 
 **Key Highlights**:
-- Harmonic engine grounded in Circle of Fifths and expressive cadences  
+- Harmonic engine built on Circle of Fifths & expressive cadences  
 - Emotion-driven mood → scale → chord logic  
 - Generates customizable MIDI compositions with tempo, contour, and mode  
 - Inspired by expressive works of Bach, Mozart, and Beethoven  
-- Ongoing expansion with LSTMs and NLP-to-music pipeline  
-[GitHub](https://github.com/Orca71/Wolfie) • [Demo Coming Soon](#)
+- Ongoing expansion: LSTMs, NLP-to-music pipeline  
+[GitHub](https://github.com/Orca71/Wolfie) • *Demo Coming Soon*
 
 ---
 
@@ -77,6 +78,6 @@ Wolfie is a personal project exploring the intersection of emotion, harmony, and
 
 **Tools**: Python, FastAPI, QuickBooks API, OAuth2  
 **Description**:  
-Lantern is a secure SaaS product that connects with QuickBooks to help small businesses manage accounting tasks. The platform features modular design and secure token handling, with an NLP-based query system currently in development.
+Lantern is a secure SaaS product that connects with QuickBooks to help small businesses manage accounting tasks. The platform uses a multi-agent NLP interface, modular intent routing, and secure token handling.
 
-*(Not Public yet – Demo coming soon)*
+*(Not public yet – Demo coming soon)*
