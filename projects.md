@@ -5,7 +5,7 @@ title: Projects
 
 # Projects
 
-A collection of my most exciting work — blending machine learning, NLP, multimodal reasoning, and creative AI into real-world, expressive systems.
+A selection of the work I’m most proud of — combining machine learning, NLP, reasoning, and creative AI into systems that are practical, expressive, and thoughtfully designed.
 
 ---
 
@@ -13,14 +13,13 @@ A collection of my most exciting work — blending machine learning, NLP, multim
 
 **Tools**: Python, PyTorch, Transformers, Contrastive Learning  
 **Description**:  
-An ongoing research project exploring abductive inference — the process of identifying the most plausible explanation for a given observation. This work investigates how LLMs handle subtle causal distinctions and hypothesis selection when semantic similarity causes classical training signals to collapse.
+A research project exploring abductive inference — how an AI system chooses the most plausible explanation for an event. I’m studying where current LLMs struggle, especially when different hypotheses look almost identical in the embedding space. The goal is to build reasoning models that are more sensitive, discriminative, and grounded in causal structure.
 
 **Key Highlights**:
-- Designed hypothesis-generation and reasoning pipeline based on the SemEval-2026 Task 12 framework  
-- Analyzed encoder collapse in embedding space (semantic similarity ≈ 0.94 across hypotheses)  
-- Experimented with contrastive objectives (InfoNCE, difference-based losses)  
-- Investigating new encoder architectures for causal sensitivity  
-- Aim: build models capable of distinguishing tightly overlapping hypotheses  
+- Developed a custom hypothesis-generation and reasoning pipeline inspired by SemEval Task 12  
+- Experimented with contrastive objectives to separate closely related hypotheses  
+- Exploring encoder designs that better capture causal nuance  
+- Long-term aim: a model that can genuinely “choose the best explanation,” not just the closest paraphrase  
 
 *(Code & preprint coming soon)*
 
@@ -30,14 +29,13 @@ An ongoing research project exploring abductive inference — the process of ide
 
 **Tools**: TF-IDF, Word2Vec, prosodic features, Random Forest, FNN, SHAP, EBM  
 **Description**:  
-Built a multimodal ML pipeline to estimate job interview performance and excitement scores using both textual and acoustic features. Combined traditional feature engineering with explainable machine learning for fairness and insight.
+A project that brings together text analysis and acoustic features to estimate interview performance and excitement levels. The focus was not only on prediction, but also transparency — making sure the model could be interpreted and its behavior explained.
 
 **Key Highlights**:
-- Fused text (TF-IDF, Word2Vec) and prosodic features (pitch, energy)  
-- Performed 5-fold cross-validation with extensive model tuning  
-- Achieved higher predictive performance vs unimodal baselines  
-- Interpreted results using SHAP and Explainable Boosting Machines  
-- Dataset: MIT Interview corpus  
+- Combined linguistic features with prosodic ones such as pitch and energy  
+- Performed extensive cross-validation and model comparison  
+- Used SHAP and EBM to understand how specific cues influence predictions  
+- Built on the MIT Interview dataset  
 [GitHub](https://github.com/Orca71/Interview-outcome-Prediction-Multimodal-ML-) • [Read Report](https://github.com/Orca71/Interview-Outcome-Prediction-Multimodal-ML-/blob/main/Report.pdf)
 
 ---
@@ -46,14 +44,12 @@ Built a multimodal ML pipeline to estimate job interview performance and excitem
 
 **Tools**: BERT, TF-IDF, Logistic Regression, XGBoost, Hugging Face, Gradio  
 **Description**:  
-Designed and deployed a binary classification system to detect fake news using the LIAR dataset. Compared classic pipelines with transformer-based methods, fine-tuning BERT for optimal results and hosting a public demo.
+An end-to-end NLP system for identifying fake and real news articles. The project compares classical text-based models with modern transformer approaches, offering a practical demonstration of how different techniques behave on deceptive content.
 
 **Key Highlights**:
-- Reformatted LIAR dataset into binary: Fake vs Real  
-- Fine-tuned BERT model reached 76% F1 and 63% test accuracy  
-- Benchmarked against TF-IDF + Logistic Regression and XGBoost  
-- Evaluated using precision, recall, confusion matrix, and F1-score  
-- Live demo hosted on Hugging Face Spaces  
+- Prepared a clean binary version of the LIAR dataset  
+- Compared traditional pipelines with transformer fine-tuning  
+- Built an interactive web demo on Hugging Face Spaces  
 [GitHub](https://github.com/Orca71/fake-news-detector) • [Try the Demo](https://huggingface.co/spaces/ShahOfData/shah_fake-news-detector)
 
 ---
@@ -62,14 +58,13 @@ Designed and deployed a binary classification system to detect fake news using t
 
 **Tools**: Python, PrettyMIDI, FluidSynth, symbolic AI, music theory  
 **Description**:  
-Wolfie explores the intersection of emotion, harmony, and AI. It generates expressive chord progressions and motifs based on user-selected moods using rule-based logic and symbolic musical structures.
+Wolfie is a personal and artistic exploration of emotion in music. The system generates expressive chord progressions and motifs based on a user’s chosen mood, blending symbolic rules with classical harmony.
 
 **Key Highlights**:
-- Harmonic engine built on Circle of Fifths & expressive cadences  
-- Emotion-driven mood → scale → chord logic  
-- Generates customizable MIDI compositions with tempo, contour, and mode  
-- Inspired by expressive works of Bach, Mozart, and Beethoven  
-- Ongoing expansion: LSTMs, NLP-to-music pipeline  
+- Built a harmonic engine inspired by the Circle of Fifths and expressive cadences  
+- Converts emotional intent into musical structures (scale, mode, progression)  
+- Produces MIDI files with adjustable tempo and contour  
+- Future plans include LSTM-based composition and NLP-to-music translation  
 [GitHub](https://github.com/Orca71/Wolfie) • *Demo Coming Soon*
 
 ---
@@ -78,6 +73,6 @@ Wolfie explores the intersection of emotion, harmony, and AI. It generates expre
 
 **Tools**: Python, FastAPI, QuickBooks API, OAuth2  
 **Description**:  
-Lantern is a secure SaaS product that connects with QuickBooks to help small businesses manage accounting tasks. The platform uses a multi-agent NLP interface, modular intent routing, and secure token handling.
+Lantern is a multi-agent AI assistant designed to help small businesses understand and manage their accounting workflows. It combines secure QuickBooks integration with modular intent routing and a natural-language interface tailored for accounting tasks.
 
 *(Not public yet – Demo coming soon)*
