@@ -6,21 +6,25 @@ title: Skills
 # 🛠 Skills
 
 ## 🧠 Technical Skills
-- **Languages**: Python, SQL, HTML/CSS
-- **Libraries/Tools**: NumPy, pandas, scikit-learn, TensorFlow, PyTorch, PrettyMIDI, Matplotlib, Plotly
-- **NLP**: TF-IDF, Word2Vec, Transformers, VADER, text classification
-- **Time Series**: statsmodels, SARIMAX, regression forecasting
-- **Modeling**: Logistic Regression, Decision Trees, Random Forest, Neural Networks (FNN, CNN, LSTM)
-- **Explainability**: SHAP, feature importance, correlation analysis
+- **LLM Architecture**: multi-agent systems, modular pipelines, RAG, orchestration layers  
+- **Intelligent System Design**: cognitive architectures, reasoning modules, hypothesis generators, decision pipelines  
+- **Languages**: Python, SQL, HTML/CSS  
+- **Machine Learning & Deep Learning**: Neural Networks (FNN, CNN, LSTM), Transformers, attention mechanisms, contrastive learning  
+- **NLP**: BERT, embeddings, TF-IDF, Word2Vec, sequence modeling, text classification, multimodal integration  
+- **LLM Engineering**: prompt design, fine-tuning, LoRA/QLoRA, inference optimization, latency-aware design  
+- **Reasoning & Research**: abductive inference, causal sensitivity modeling, encoder analysis  
+- **Tools & Libraries**: PyTorch, TensorFlow, scikit-learn, NumPy, pandas, PrettyMIDI, Matplotlib, Plotly  
+- **Explainability**: SHAP, EBM, feature analysis, model transparency  
 
 ## 💼 Soft Skills
-- Communication & presentation
-- Critical thinking & problem solving
-- Collaboration & team projects
-- Time management & self-discipline
+- Strong written and verbal communication  
+- Analytical and critical thinking  
+- Cross-functional collaboration  
+- Self-directed learning and project ownership  
 
 ## 🎓 Education
 - **M.S. in Data Science**  
   University of Colorado Boulder  
-  (Expected Dec 2025)
+  *Completed 2025*
+  
 - **B.S. in Business Marketing**
