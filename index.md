@@ -9,7 +9,7 @@ title: Shahriar Nekouei
 
   <div>
 
-<h1>Hi, I’m Shahriar 👋</h1>
+<h1>Hi, I’m Shah</h1>
 
 <p>
   I'm an <strong>AI theorist</strong> and engineer focused on building intelligent systems that bridge rigorous reasoning with creative design. I recently completed my Master’s in Data Science at the University of Colorado Boulder, where I specialized in <strong>natural language processing</strong>, <strong>machine learning</strong>, and <strong>cognitive system architecture</strong>.
