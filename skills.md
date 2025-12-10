@@ -6,7 +6,7 @@ title: Skills
 # 🛠 Skills
 
 ## 🧠 Technical Skills
-- **LLM Architecture**: multi-agent systems, modular pipelines, RAG, orchestration layers  
+- **LLM Architecture**: multi-agent systems, RAG, modular pipelines, tool-calling, orchestration layers  
 - **Intelligent System Design**: cognitive architectures, reasoning modules, hypothesis generators, decision pipelines  
 - **Languages**: Python, SQL, HTML/CSS  
 - **Machine Learning & Deep Learning**: Neural Networks (FNN, CNN, LSTM), Transformers, attention mechanisms, contrastive learning  
@@ -19,12 +19,15 @@ title: Skills
 ## 💼 Soft Skills
 - Strong written and verbal communication  
 - Analytical and critical thinking  
+- Creativity and problem solving  
+- Self-motivated and disciplined  
 - Cross-functional collaboration  
-- Self-directed learning and project ownership  
 
 ## 🎓 Education
 - **M.S. in Data Science**  
   University of Colorado Boulder  
   *Completed 2025*
-  
-- **B.S. in Business Marketing**
+
+- **B.S. in Business Marketing**  
+  Metropolitan State University of Denver  
+  *Completed 2021*
