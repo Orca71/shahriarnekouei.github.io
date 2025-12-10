@@ -12,19 +12,19 @@ title: Shahriar Nekouei
 <h1>Hi, I’m Shahriar 👋</h1>
 
 <p>
-  I'm an AI/ML engineer and creative technologist with a passion for transforming bold ideas into real-world systems. Currently completing my Master’s in Data Science at the University of Colorado Boulder, I specialize in <strong>natural language processing</strong>, <strong>machine learning</strong>, and <strong>intelligent system design</strong>.
+  I'm an <strong>AI theorist</strong> and engineer focused on building intelligent systems that bridge rigorous reasoning with creative design. I recently completed my Master’s in Data Science at the University of Colorado Boulder, where I specialized in <strong>natural language processing</strong>, <strong>machine learning</strong>, and <strong>cognitive system architecture</strong>.
 </p>
 
 <p>
-  My work combines rigorous modeling with creative insight—from forecasting housing markets and detecting political misinformation to composing emotionally expressive music and designing AI-powered SaaS platforms.
+  My work brings together analytical precision and imaginative system-building — from forecasting economic trends and detecting misinformation to generating emotionally expressive music and designing multi-agent AI platforms.
 </p>
 
 <p>Core project areas:</p>
 <ul>
   <li>Multimodal ML for interview outcome prediction (text + prosody)</li>
   <li>Fake news detection using BERT and Transformers</li>
-  <li>Emotion-aware harmony generation (Wolfie)</li>
-  <li>AI-powered accounting assistant (Lantern, SaaS)</li>
+  <li>Emotion-aware harmony & music generation (Wolfie)</li>
+  <li>Multi-agent AI accounting assistant (Lantern, SaaS)</li>
   <li>Housing and rent forecasting using time series modeling</li>
 </ul>
 
