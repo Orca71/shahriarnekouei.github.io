@@ -5,7 +5,7 @@ title: Projects
 
 # Projects
 
-A selection of the work I’m most proud of — combining machine learning, NLP, reasoning, and creative AI into systems that are practical, expressive, and thoughtfully designed.
+A selection of my works, combining machine learning, NLP, reasoning, and creative AI into systems that are practical, expressive, and thoughtfully designed.
 
 ---
 
@@ -13,13 +13,15 @@ A selection of the work I’m most proud of — combining machine learning, NLP,
 
 **Tools**: Python, PyTorch, Transformers, Contrastive Learning  
 **Description**:  
-A research project exploring abductive inference — how an AI system chooses the most plausible explanation for an event. I’m studying where current LLMs struggle, especially when different hypotheses look almost identical in the embedding space. The goal is to build reasoning models that are more sensitive, discriminative, and grounded in causal structure.
+A research project exploring abductive inference — how an AI system chooses the most plausible explanation for an event. I’m studying where current LLMs struggle, especially when different hypotheses look almost identical in the embedding space. The long-term goal is to build reasoning models that are more sensitive, discriminative, and grounded in causal structure.
+
+This work is part of my ongoing preparation for submitting to the **SemEval 2026 Task 12 competition**, where abductive reasoning and causal hypothesis selection are the central challenges.
 
 **Key Highlights**:
-- Developed a custom hypothesis-generation and reasoning pipeline inspired by SemEval Task 12  
+- Developed a custom hypothesis-generation and reasoning pipeline inspired by the SemEval Task 12 structure  
 - Experimented with contrastive objectives to separate closely related hypotheses  
 - Exploring encoder designs that better capture causal nuance  
-- Long-term aim: a model that can genuinely “choose the best explanation,” not just the closest paraphrase  
+- Aim: a model that can genuinely “choose the best explanation,” not just the closest paraphrase  
 
 *(Code & preprint coming soon)*
 
@@ -44,7 +46,7 @@ A project that brings together text analysis and acoustic features to estimate i
 
 **Tools**: BERT, TF-IDF, Logistic Regression, XGBoost, Hugging Face, Gradio  
 **Description**:  
-An end-to-end NLP system for identifying fake and real news articles. The project compares classical text-based models with modern transformer approaches, offering a practical demonstration of how different techniques behave on deceptive content.
+An end-to-end NLP system for identifying fake and real news articles. The project compares classical text-based models with modern transformer approaches, showing how different techniques behave on deceptive content.
 
 **Key Highlights**:
 - Prepared a clean binary version of the LIAR dataset  
