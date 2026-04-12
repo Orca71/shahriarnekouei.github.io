@@ -5,7 +5,7 @@ title: Shahriar Nekouei
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
 
-  <img src="profile.PNG" alt="Profile image of Shah" width="150" style="border-radius: 8px;" />
+  <img src="profile.JPG" alt="Profile image of Shah" width="150" style="border-radius: 8px;" />
 
   <div>
 
