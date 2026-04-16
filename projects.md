@@ -13,9 +13,9 @@ title: Projects
 
 <div class="project-detail">
   <div class="project-detail-header">
-    <div class="project-index">01 / 05</div>
+    <div class="project-index">01 / 06</div>
     <h2>Lantern Intelligence</h2>
-    <div class="project-status in-dev">In Development</div>
+    <div class="project-status demo">Demo on Request</div>
   </div>
   <div class="tags" style="margin-bottom: 20px;">
     <span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">RAG</span><span class="tag">ChromaDB</span><span class="tag">Ollama</span><span class="tag">SQLite</span>
@@ -30,14 +30,14 @@ title: Projects
     <li>Fully self-hosted: llama3.1:8b on RunPod A100 — no external API dependency</li>
     <li>Browser-side conversation memory with runtime SQL file loading</li>
   </ul>
-  <div class="project-note">Runs locally — demo coming soon</div>
+  <div class="project-note">Available for live demo upon request</div>
 </div>
 
 <hr>
 
 <div class="project-detail">
   <div class="project-detail-header">
-    <div class="project-index">02 / 05</div>
+    <div class="project-index">02 / 06</div>
     <h2>Lumen</h2>
     <div class="project-status in-dev">In Development</div>
   </div>
@@ -62,9 +62,8 @@ title: Projects
 
 <div class="project-detail">
   <div class="project-detail-header">
-    <div class="project-index">03 / 05</div>
+    <div class="project-index">03 / 06</div>
     <h2>Abductive Reasoning with LLMs</h2>
-    <div class="project-status in-dev">In Development</div>
   </div>
   <div class="tags" style="margin-bottom: 20px;">
     <span class="tag">Python</span><span class="tag">PyTorch</span><span class="tag">Transformers</span><span class="tag">Contrastive Learning</span>
@@ -84,7 +83,33 @@ title: Projects
 
 <div class="project-detail">
   <div class="project-detail-header">
-    <div class="project-index">04 / 05</div>
+    <div class="project-index">04 / 06</div>
+    <h2>Housing Price Forecasting</h2>
+  </div>
+  <div class="tags" style="margin-bottom: 20px;">
+    <span class="tag">Time-series Regression</span><span class="tag">XGBoost</span><span class="tag">Elastic Net</span><span class="tag">Python</span><span class="tag">Zillow API</span>
+  </div>
+  <p class="why-label-text">Why it matters</p>
+  <p>Housing affordability is one of the most consequential financial decisions people make, yet most analysis is surface-level. This project treats the buy vs. rent question as a rigorous forecasting problem — modeling the macroeconomic drivers that actually move prices, not just the prices themselves.</p>
+  <p>A time-series study predicting rent and mortgage costs across Denver, Boulder, and Fort Collins using macroeconomic indicators from Zillow, the Federal Reserve, and the Bureau of Labor Statistics. Twelve models were developed and compared; XGBoost and Elastic Net emerged as the strongest performers.</p>
+  <ul class="project-highlights">
+    <li>Dual model architecture: separate regression pipelines for mortgage and rent prediction</li>
+    <li>Full assumption validation: linearity, homoscedasticity, independence of errors, normality — with documented corrections for each violation</li>
+    <li>Applied log transformation, polynomial terms, and lag features to resolve heteroskedasticity and autocorrelation</li>
+    <li>Elastic Net R² of 0.97 on test data for rent; XGBoost R² of 0.96 for mortgage — both without overfitting</li>
+    <li>Feature importance analysis identifying number of listings and heat index as primary price drivers</li>
+    <li>Data sourced from Zillow Housing Database, FRED, and Bureau of Labor Statistics (2018–2024)</li>
+  </ul>
+  <div class="project-links">
+    <a href="/housing-forecast.pdf" target="_blank">Read Report ↗</a>
+  </div>
+</div>
+
+<hr>
+
+<div class="project-detail">
+  <div class="project-detail-header">
+    <div class="project-index">05 / 06</div>
     <h2>Multimodal Interview Outcome Predictor</h2>
   </div>
   <div class="tags" style="margin-bottom: 20px;">
@@ -107,7 +132,7 @@ title: Projects
 
 <div class="project-detail">
   <div class="project-detail-header">
-    <div class="project-index">05 / 05</div>
+    <div class="project-index">06 / 06</div>
     <h2>Wolfie — Emotion-Aware Music Generation</h2>
     <div class="project-status deferred">In Design</div>
   </div>
