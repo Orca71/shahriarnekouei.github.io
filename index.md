@@ -48,9 +48,9 @@ title: Shahriar Nekouei
       <span class="prow-num">02</span>
       <div>
         <div class="prow-title">Lumen</div>
-        <div class="prow-desc">Blackbox LLM evaluation system — tests any model through inputs and outputs alone, no internals required.</div>
+        <div class="prow-desc">Blackbox LLM evaluation system — tests any model through inputs and outputs alone.</div>
         <div class="prow-tags">
-          <span class="ptag">LLM Eval</span><span class="ptag">LLM-as-judge</span><span class="ptag">Python</span><span class="ptag">FastAPI</span>
+          <span class="ptag">LLM Eval</span><span class="ptag">LLM-as-judge</span><span class="ptag">Python</span>
         </div>
       </div>
       <span class="prow-arrow">↗</span>
@@ -71,6 +71,18 @@ title: Shahriar Nekouei
     <a href="/projects" class="prow">
       <span class="prow-num">04</span>
       <div>
+        <div class="prow-title">Housing Price Forecasting</div>
+        <div class="prow-desc">Time-series models predicting rent and mortgage costs across Colorado — XGBoost, Elastic Net, 12 models compared.</div>
+        <div class="prow-tags">
+          <span class="ptag">Time-series</span><span class="ptag">XGBoost</span><span class="ptag">Elastic Net</span>
+        </div>
+      </div>
+      <span class="prow-arrow">↗</span>
+    </a>
+
+    <a href="/projects" class="prow">
+      <span class="prow-num">05</span>
+      <div>
         <div class="prow-title">Multimodal Interview Predictor</div>
         <div class="prow-desc">Interpretable outcome prediction from speech and text.</div>
         <div class="prow-tags">
@@ -81,7 +93,7 @@ title: Shahriar Nekouei
     </a>
 
     <a href="/projects" class="prow">
-      <span class="prow-num">05</span>
+      <span class="prow-num">06</span>
       <div>
         <div class="prow-title">Wolfie</div>
         <div class="prow-desc">Emotion-driven music generation — generative AI applied beyond text.</div>
