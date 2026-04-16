@@ -73,7 +73,7 @@ nav {
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
-  padding: 0 64px;
+  padding: 0 32px;
   height: 58px;
   display: flex;
   align-items: center;
@@ -127,7 +127,7 @@ nav a:hover { color: var(--text); }
 main {
   max-width: 880px;
   margin: 0 auto;
-  padding: 56px 64px 100px;
+  padding: 56px 32px 100px;
 }
 
 /* ─── HERO ───────────────────────────────────────── */
@@ -137,8 +137,8 @@ main {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 1fr 155px;
-  gap: 48px;
+  grid-template-columns: 1fr 160px;
+  gap: 32px;
   align-items: start;
 }
 
