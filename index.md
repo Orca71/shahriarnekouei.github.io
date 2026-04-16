@@ -7,13 +7,11 @@ title: Shahriar Nekouei
   <div class="hero-grid">
     <div>
       <div class="eyebrow"><div class="eyebrow-dot"></div><span class="eyebrow-text">Applied AI Engineer &amp; Data Scientist</span></div>
-
       <div class="three-lines">
         <span class="line line-1">Curiosity led me into AI.</span>
         <span class="line line-2">Building became my way of understanding it.</span>
         <span class="line line-3">Clayed in <em>Iran</em>, shaped in the <em>U.S.</em></span>
       </div>
-
       <div class="bio">
         <p>I recently completed my MS in Data Science at CU Boulder, where my research focused on abductive reasoning and causal inference with language models. My engineering work centers on systems that combine deterministic business logic with LLM reasoning — grounded, auditable, and designed to hold up beyond the demo.</p>
         <p>Currently building Lantern Intelligence, an AI financial assistant that grounds every response in real company data, and Lumen, a blackbox LLM evaluation system designed to catch model regressions before they reach users.</p>
@@ -34,7 +32,7 @@ title: Shahriar Nekouei
 
   <div class="plist">
 
-    <div class="prow">
+    <a href="/projects" class="prow">
       <span class="prow-num">01</span>
       <div>
         <div class="prow-title">Lantern Intelligence</div>
@@ -44,9 +42,9 @@ title: Shahriar Nekouei
         </div>
       </div>
       <span class="prow-arrow">↗</span>
-    </div>
+    </a>
 
-    <div class="prow">
+    <a href="/projects" class="prow">
       <span class="prow-num">02</span>
       <div>
         <div class="prow-title">Lumen</div>
@@ -56,9 +54,9 @@ title: Shahriar Nekouei
         </div>
       </div>
       <span class="prow-arrow">↗</span>
-    </div>
+    </a>
 
-    <div class="prow">
+    <a href="/projects" class="prow">
       <span class="prow-num">03</span>
       <div>
         <div class="prow-title">Abductive Reasoning with LLMs</div>
@@ -68,9 +66,9 @@ title: Shahriar Nekouei
         </div>
       </div>
       <span class="prow-arrow">↗</span>
-    </div>
+    </a>
 
-    <div class="prow">
+    <a href="/projects" class="prow">
       <span class="prow-num">04</span>
       <div>
         <div class="prow-title">Multimodal Interview Predictor</div>
@@ -80,9 +78,9 @@ title: Shahriar Nekouei
         </div>
       </div>
       <span class="prow-arrow">↗</span>
-    </div>
+    </a>
 
-    <div class="prow">
+    <a href="/projects" class="prow">
       <span class="prow-num">05</span>
       <div>
         <div class="prow-title">Wolfie</div>
@@ -92,7 +90,7 @@ title: Shahriar Nekouei
         </div>
       </div>
       <span class="prow-arrow">↗</span>
-    </div>
+    </a>
 
   </div>
 </div>
