@@ -9,7 +9,7 @@ title: Skills
   <p style="max-width: 560px;">A working stack built through research and hands-on engineering — not a checklist, but the tools I've actually used to build and ship systems.</p>
 </div>
 
-<div class="sec-hdr" style="margin-bottom: 28px;">
+<div class="sec-hdr" style="margin-bottom: 24px;">
   <span class="sec-hdr-num">01 —</span>
   <h2>Technical</h2>
 </div>
@@ -24,7 +24,10 @@ title: Skills
     <span class="chip">Multi-agent Systems</span>
     <span class="chip">Instruction Tuning</span>
     <span class="chip">Inference Optimization</span>
-    <span class="chip">Tool Calling</span>
+    <span class="chip">LLM Evaluation</span>
+    <span class="chip">LLM-as-judge</span>
+    <span class="chip">Behavioral Probing</span>
+    <span class="chip">Blackbox Testing</span>
   </div>
 </div>
 
@@ -38,8 +41,9 @@ title: Skills
     <span class="chip">TF-IDF</span>
     <span class="chip">Semantic Search</span>
     <span class="chip">Embedding Pipelines</span>
-    <span class="chip">Re-ranking</span>
-    <span class="chip">Chunking Strategies</span>
+    <span class="chip">Abductive Inference</span>
+    <span class="chip">Causal Reasoning</span>
+    <span class="chip">Contrastive Learning</span>
   </div>
 </div>
 
@@ -47,13 +51,32 @@ title: Skills
   <div class="skill-group-label">Machine Learning</div>
   <div class="skill-chips">
     <span class="chip">Neural Networks</span>
-    <span class="chip">Contrastive Learning</span>
+    <span class="chip">Multimodal ML</span>
+    <span class="chip">Prosodic Feature Extraction</span>
+    <span class="chip">XGBoost</span>
     <span class="chip">Tree-based Models</span>
-    <span class="chip">Time-series Forecasting</span>
+    <span class="chip">Generative Modeling</span>
+    <span class="chip">Sequence Modeling</span>
     <span class="chip">Feature Engineering</span>
     <span class="chip">SHAP</span>
     <span class="chip">EBM</span>
     <span class="chip">Model Interpretability</span>
+  </div>
+</div>
+
+<div class="skill-group">
+  <div class="skill-group-label">Statistical Modeling &amp; Forecasting</div>
+  <div class="skill-chips">
+    <span class="chip">Time-series Regression</span>
+    <span class="chip">Multilinear Regression</span>
+    <span class="chip">Elastic Net</span>
+    <span class="chip">Ridge / Lasso</span>
+    <span class="chip">Polynomial Feature Engineering</span>
+    <span class="chip">Lag Feature Engineering</span>
+    <span class="chip">Autocorrelation Analysis</span>
+    <span class="chip">Heteroskedasticity Diagnostics</span>
+    <span class="chip">Log Transformation</span>
+    <span class="chip">Overfitting Analysis</span>
   </div>
 </div>
 
@@ -73,9 +96,9 @@ title: Skills
   </div>
 </div>
 
-<hr style="margin: 40px 0;">
+<hr style="margin: 32px 0;">
 
-<div class="sec-hdr" style="margin-bottom: 28px;">
+<div class="sec-hdr" style="margin-bottom: 20px;">
   <span class="sec-hdr-num">02 —</span>
   <h2>Education</h2>
 </div>
