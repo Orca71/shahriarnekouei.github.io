@@ -3,78 +3,104 @@ layout: default
 title: Projects
 ---
 
-# Projects
+<div class="section" style="margin-bottom: 32px;">
+  <div class="hero-label">Selected Work</div>
+  <h1 style="font-size: clamp(2rem, 3.5vw, 2.8rem); margin-bottom: 16px;">Projects</h1>
+  <p style="max-width: 600px;">A selection of work combining machine learning, NLP, reasoning, and creative AI — systems that are practical, expressive, and thoughtfully designed.</p>
+</div>
 
-A selection of my works, combining machine learning, NLP, reasoning, and creative AI into systems that are practical, expressive, and thoughtfully designed.
+<hr>
 
----
+<div class="project-detail">
 
-## 🧩 Abductive Reasoning Research *(In Development)*
+  <div class="project-detail-header">
+    <div class="project-index">01 / 04</div>
+    <h2>Lantern Intelligence</h2>
+    <div class="project-status in-dev">In Development</div>
+  </div>
+  <div class="tags" style="margin-bottom: 20px;">
+    <span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">RAG</span><span class="tag">ChromaDB</span><span class="tag">Ollama</span><span class="tag">SQLite</span>
+  </div>
+  <p>A multi-agent AI accounting assistant designed to help small businesses understand and manage their financial data through natural language. Lantern combines SQL-first deterministic computation with RAG pipelines, grounding every response in real company data rather than model assumptions.</p>
+  <p>The system runs three simulated service company databases simultaneously — the same question produces different, grounded answers across each one, demonstrating how context-aware AI should behave in enterprise settings.</p>
+  <ul class="project-highlights">
+    <li>FastAPI backend with keyword-based query routing — no LLM overhead for intent classification</li>
+    <li>ChromaDB vector store with all-MiniLM-L6-v2 embeddings for semantic document retrieval</li>
+    <li>Eight financial SQL queries: net profit margin, DSO, burn rate, revenue per employee, churn rate, and more</li>
+    <li>Ollama running llama3.1:8b on RunPod A100 — fully self-hosted, no external API dependency</li>
+    <li>Browser-side conversation memory with runtime SQL file loading</li>
+  </ul>
+  <div class="project-note">Demo coming soon</div>
 
-**Tools**: Python, PyTorch, Transformers, Contrastive Learning  
-**Description**:  
-A research project exploring abductive inference — how an AI system chooses the most plausible explanation for an event. I’m studying where current LLMs struggle, especially when different hypotheses look almost identical in the embedding space. The long-term goal is to build reasoning models that are more sensitive, discriminative, and grounded in causal structure.
+</div>
 
-This work is part of my ongoing preparation for submitting to the **SemEval 2026 Task 12 competition**, where abductive reasoning and causal hypothesis selection are the central challenges.
+<hr>
 
-**Key Highlights**:
-- Developed a custom hypothesis-generation and reasoning pipeline inspired by the SemEval Task 12 structure  
-- Experimented with contrastive objectives to separate closely related hypotheses  
-- Exploring encoder designs that better capture causal nuance  
-- Aim: a model that can genuinely “choose the best explanation,” not just the closest paraphrase  
+<div class="project-detail">
 
-*(Code & preprint coming soon)*
+  <div class="project-detail-header">
+    <div class="project-index">02 / 04</div>
+    <h2>Abductive Reasoning with LLMs</h2>
+    <div class="project-status in-dev">In Development</div>
+  </div>
+  <div class="tags" style="margin-bottom: 20px;">
+    <span class="tag">Python</span><span class="tag">PyTorch</span><span class="tag">Transformers</span><span class="tag">Contrastive Learning</span>
+  </div>
+  <p>A research project exploring how AI systems choose the most plausible explanation for an event. Current LLMs struggle when competing hypotheses look nearly identical in embedding space — they pattern-match rather than reason causally. This work investigates where that failure begins and what architectural changes can address it.</p>
+  <p>Prepared for submission to <strong>SemEval 2026 Task 12</strong>, where abductive reasoning and causal hypothesis selection are the central challenges.</p>
+  <ul class="project-highlights">
+    <li>Custom hypothesis-generation and reasoning pipeline modeled on the SemEval Task 12 structure</li>
+    <li>Contrastive learning objectives to discriminate between semantically similar but causally distinct hypotheses</li>
+    <li>Finding: frozen encoder embeddings cannot recover causal structure regardless of downstream training objective</li>
+    <li>Goal: a model that selects the best explanation — not just the closest paraphrase</li>
+  </ul>
+  <div class="project-note">Code &amp; preprint coming soon</div>
 
----
+</div>
 
-## 🧠 Multimodal Interview Scoring with NLP
+<hr>
 
-**Tools**: TF-IDF, Word2Vec, prosodic features, Random Forest, FNN, SHAP, EBM  
-**Description**:  
-A project that brings together text analysis and acoustic features to estimate interview performance and excitement levels. The focus was not only on prediction, but also transparency — making sure the model could be interpreted and its behavior explained.
+<div class="project-detail">
 
-**Key Highlights**:
-- Combined linguistic features with prosodic ones such as pitch and energy  
-- Performed extensive cross-validation and model comparison  
-- Used SHAP and EBM to understand how specific cues influence predictions  
-- Built on the MIT Interview dataset  
-[GitHub](https://github.com/Orca71/Interview-outcome-Prediction-Multimodal-ML-) • [Read Report](https://github.com/Orca71/Interview-Outcome-Prediction-Multimodal-ML-/blob/main/Report.pdf)
+  <div class="project-detail-header">
+    <div class="project-index">03 / 04</div>
+    <h2>Multimodal Interview Outcome Predictor</h2>
+  </div>
+  <div class="tags" style="margin-bottom: 20px;">
+    <span class="tag">TF-IDF</span><span class="tag">Word2Vec</span><span class="tag">Prosodic Features</span><span class="tag">Random Forest</span><span class="tag">SHAP</span><span class="tag">EBM</span>
+  </div>
+  <p>A system that combines linguistic and acoustic signals to estimate interview performance and excitement levels. The project prioritized not just prediction accuracy, but interpretability — understanding exactly which cues drive each decision.</p>
+  <ul class="project-highlights">
+    <li>Combined text features (TF-IDF, Word2Vec) with prosodic signals including pitch and energy</li>
+    <li>Extensive cross-validation and model comparison across Random Forest and feedforward architectures</li>
+    <li>SHAP and Explainable Boosting Machines to surface feature-level influence on predictions</li>
+    <li>Built on the MIT Interview dataset</li>
+  </ul>
+  <div class="project-links">
+    <a href="https://github.com/Orca71/Interview-outcome-Prediction-Multimodal-ML-" target="_blank">GitHub ↗</a>
+    <a href="https://github.com/Orca71/Interview-Outcome-Prediction-Multimodal-ML-/blob/main/Report.pdf" target="_blank">Read Report ↗</a>
+  </div>
 
----
+</div>
 
-## 📰 Fake News Detection with NLP
+<hr>
 
-**Tools**: BERT, TF-IDF, Logistic Regression, XGBoost, Hugging Face, Gradio  
-**Description**:  
-An end-to-end NLP system for identifying fake and real news articles. The project compares classical text-based models with modern transformer approaches, showing how different techniques behave on deceptive content.
+<div class="project-detail">
 
-**Key Highlights**:
-- Prepared a clean binary version of the LIAR dataset  
-- Compared traditional pipelines with transformer fine-tuning  
-- Built an interactive web demo on Hugging Face Spaces  
-[GitHub](https://github.com/Orca71/fake-news-detector) • [Try the Demo](https://huggingface.co/spaces/ShahOfData/shah_fake-news-detector)
+  <div class="project-detail-header">
+    <div class="project-index">04 / 04</div>
+    <h2>Wolfie — Emotion-Aware Music Generation</h2>
+    <div class="project-status deferred">In Design</div>
+  </div>
+  <div class="tags" style="margin-bottom: 20px;">
+    <span class="tag">Generative AI</span><span class="tag">Deep Learning</span><span class="tag">Emotion Modeling</span><span class="tag">Music</span>
+  </div>
+  <p>A generative system that produces harmonically expressive music driven by emotional state input. The goal is to bridge affective computing and music theory — generating compositions that feel emotionally coherent, not just statistically plausible.</p>
+  <ul class="project-highlights">
+    <li>Emotion-to-harmony mapping as the core generative mechanism</li>
+    <li>Sequence modeling for melody and chord progression generation</li>
+    <li>Focused on expressive output over generic MIDI patterns</li>
+  </ul>
+  <div class="project-note">Deferred pending hardware — design phase complete</div>
 
----
-
-## 🎼 Wolfie: Emotion-Aware Music Generation *(In Progress)*
-
-**Tools**: Python, PrettyMIDI, FluidSynth, symbolic AI, music theory  
-**Description**:  
-Wolfie is a personal and artistic exploration of emotion in music. The system generates expressive chord progressions and motifs based on a user’s chosen mood, blending symbolic rules with classical harmony.
-
-**Key Highlights**:
-- Built a harmonic engine inspired by the Circle of Fifths and expressive cadences  
-- Converts emotional intent into musical structures (scale, mode, progression)  
-- Produces MIDI files with adjustable tempo and contour  
-- Future plans include LSTM-based composition and NLP-to-music translation  
-[GitHub](https://github.com/Orca71/Wolfie) • *Demo Coming Soon*
-
----
-
-## 💡 Lantern: AI Accounting Assistant *(SaaS – In Development)*
-
-**Tools**: Python, FastAPI, QuickBooks API, OAuth2  
-**Description**:  
-Lantern is a multi-agent AI assistant designed to help small businesses understand and manage their accounting workflows. It combines secure QuickBooks integration with modular intent routing and a natural-language interface tailored for accounting tasks.
-
-*(Not public yet – Demo coming soon)*
+</div>
