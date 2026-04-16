@@ -32,7 +32,7 @@ title: Shahriar Nekouei
 
   <div class="plist">
 
-    <a href="/projects" class="prow">
+    <a href="/projects#lantern" class="prow">
       <span class="prow-num">01</span>
       <div>
         <div class="prow-title">Lantern Intelligence</div>
@@ -44,7 +44,7 @@ title: Shahriar Nekouei
       <span class="prow-arrow">↗</span>
     </a>
 
-    <a href="/projects" class="prow">
+    <a href="/projects#lumen" class="prow">
       <span class="prow-num">02</span>
       <div>
         <div class="prow-title">Lumen</div>
@@ -56,7 +56,7 @@ title: Shahriar Nekouei
       <span class="prow-arrow">↗</span>
     </a>
 
-    <a href="/projects" class="prow">
+    <a href="/projects#abductive" class="prow">
       <span class="prow-num">03</span>
       <div>
         <div class="prow-title">Abductive Reasoning with LLMs</div>
@@ -68,7 +68,7 @@ title: Shahriar Nekouei
       <span class="prow-arrow">↗</span>
     </a>
 
-    <a href="/projects" class="prow">
+    <a href="/projects#housing" class="prow">
       <span class="prow-num">04</span>
       <div>
         <div class="prow-title">Housing Price Forecasting</div>
@@ -80,7 +80,7 @@ title: Shahriar Nekouei
       <span class="prow-arrow">↗</span>
     </a>
 
-    <a href="/projects" class="prow">
+    <a href="/projects#interview" class="prow">
       <span class="prow-num">05</span>
       <div>
         <div class="prow-title">Multimodal Interview Predictor</div>
@@ -92,7 +92,7 @@ title: Shahriar Nekouei
       <span class="prow-arrow">↗</span>
     </a>
 
-    <a href="/projects" class="prow">
+    <a href="/projects#wolfie" class="prow">
       <span class="prow-num">06</span>
       <div>
         <div class="prow-title">Wolfie</div>
