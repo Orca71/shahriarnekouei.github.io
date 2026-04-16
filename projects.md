@@ -76,11 +76,6 @@ title: Projects
     <li>SHAP and Explainable Boosting Machines to surface feature-level influence on predictions</li>
     <li>Built on the MIT Interview dataset</li>
   </ul>
-  <div class="project-links">
-    <a href="https://github.com/Orca71/Interview-outcome-Prediction-Multimodal-ML-" target="_blank">GitHub ↗</a>
-    <a href="https://github.com/Orca71/Interview-Outcome-Prediction-Multimodal-ML-/blob/main/Report.pdf" target="_blank">Read Report ↗</a>
-  </div>
-
 </div>
 
 <hr>
