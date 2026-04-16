@@ -585,3 +585,10 @@ main > * { animation: fadeUp 0.6s ease both; }
   .hero-photo { width: 150px; }
   .contact-grid { grid-template-columns: 1fr; }
 }
+
+/* Demo on Request status */
+.project-status.demo {
+  color: #4ECCA3;
+  border-color: #4ECCA3;
+  background: rgba(78, 204, 163, 0.08);
+}
