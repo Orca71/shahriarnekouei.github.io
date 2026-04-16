@@ -11,7 +11,7 @@ title: Projects
 
 <hr>
 
-<div class="project-detail">
+<div class="project-detail" id="lantern">
   <div class="project-detail-header">
     <div class="project-index">01 / 06</div>
     <h2>Lantern Intelligence</h2>
@@ -35,7 +35,7 @@ title: Projects
 
 <hr>
 
-<div class="project-detail">
+<div class="project-detail" id="lumen">
   <div class="project-detail-header">
     <div class="project-index">02 / 06</div>
     <h2>Lumen</h2>
@@ -60,7 +60,7 @@ title: Projects
 
 <hr>
 
-<div class="project-detail">
+<div class="project-detail" id="abductive">
   <div class="project-detail-header">
     <div class="project-index">03 / 06</div>
     <h2>Abductive Reasoning with LLMs</h2>
@@ -85,7 +85,7 @@ title: Projects
 
 <hr>
 
-<div class="project-detail">
+<div class="project-detail" id="housing">
   <div class="project-detail-header">
     <div class="project-index">04 / 06</div>
     <h2>Housing Price Forecasting</h2>
@@ -111,7 +111,7 @@ title: Projects
 
 <hr>
 
-<div class="project-detail">
+<div class="project-detail" id="interview">
   <div class="project-detail-header">
     <div class="project-index">05 / 06</div>
     <h2>Multimodal Interview Outcome Predictor</h2>
@@ -134,7 +134,7 @@ title: Projects
 
 <hr>
 
-<div class="project-detail">
+<div class="project-detail" id="wolfie">
   <div class="project-detail-header">
     <div class="project-index">06 / 06</div>
     <h2>Wolfie — Emotion-Aware Music Generation</h2>
