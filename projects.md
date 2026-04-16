@@ -66,17 +66,21 @@ title: Projects
     <h2>Abductive Reasoning with LLMs</h2>
   </div>
   <div class="tags" style="margin-bottom: 20px;">
-    <span class="tag">Python</span><span class="tag">PyTorch</span><span class="tag">Transformers</span><span class="tag">Contrastive Learning</span>
+    <span class="tag">Python</span><span class="tag">PyTorch</span><span class="tag">Transformers</span><span class="tag">Contrastive Learning</span><span class="tag">RST</span>
   </div>
   <p class="why-label-text">Why it matters</p>
-  <p>LLMs are surprisingly bad at choosing the most plausible explanation for an event — they pattern-match rather than reason causally. When two hypotheses look similar in embedding space, models can't reliably pick the right one. This research identifies exactly where that failure begins and what it takes to fix it.</p>
-  <p>A research project exploring abductive inference — how an AI system selects the most plausible explanation from competing hypotheses. Prepared for submission to SemEval 2026 Task 12.</p>
+  <p>LLMs are surprisingly bad at choosing the most plausible explanation for an event — they pattern-match rather than reason causally. When two hypotheses look nearly identical in embedding space, models can't reliably pick the right one. This research identifies exactly where that failure begins.</p>
+  <p>A research project exploring abductive inference through a dual-hypothesis framework — contrasting gold explanations, evidence-derived hypotheses, and deliberately inverted hypotheses to probe the geometry of abductive space. Submitted to SemEval 2026 Task 12. Co-authored with Yifei Zhang and Echo Canaday at CU Boulder.</p>
   <ul class="project-highlights">
-    <li>Contrastive learning objectives to discriminate causally distinct hypotheses</li>
-    <li>Finding: frozen encoder embeddings cannot recover causal structure regardless of downstream training objective</li>
-    <li>Goal: a model that selects the best explanation — not just the closest paraphrase</li>
+    <li>RST-guided hypothesis construction using nucleus-satellite discourse relations</li>
+    <li>Frozen BGE-small encoder with contrastive and ranking objectives: triplet loss, margin ranking, InfoNCE, and difference-vector variants</li>
+    <li>Key finding: cosine similarity between gold, evidence-derived, and inverted hypotheses collapses to ≈0.93–0.94 — frozen encoders cannot recover abductive structure regardless of training objective</li>
+    <li>Conclusion: abductive plausibility is not linearly recoverable from semantic embedding space and requires joint encoder fine-tuning or discourse-grounded architectures</li>
   </ul>
-  <div class="project-note">Code &amp; preprint coming soon</div>
+  <div class="project-links">
+    <a href="/semeval-report.pdf" target="_blank">Read Paper ↗</a>
+    <a href="https://github.com/Orca71/Task-12-Abductive-Event-Reasoning" target="_blank">GitHub ↗</a>
+  </div>
 </div>
 
 <hr>
