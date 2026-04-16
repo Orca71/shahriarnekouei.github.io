@@ -6,9 +6,7 @@ title: Contact
 <div class="section" style="margin-bottom: 40px;">
   <div class="hero-label">Get in touch</div>
   <h1 style="font-size: clamp(2rem, 3.5vw, 2.8rem); margin-bottom: 16px;">Contact</h1>
-  <p style="max-width: 520px;">I'm open to roles in applied AI engineering, LLM systems, and research-adjacent work. Feel free to reach out directly.</p>
-</div>
-
+  <p style="max-width: 520px;">I'm open to roles in applied AI engineering, LLM systems, data science, and research-adjacent work. Feel free to reach out directly.</p>
 <div class="contact-grid">
 
   <a href="mailto:shah.nekouei@gmail.com" class="contact-card">
